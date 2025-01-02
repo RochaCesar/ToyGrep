@@ -34,7 +34,9 @@ library
       src
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
-      base >=4.7 && <5
+      QuickCheck
+    , base >=4.7 && <5
+    , hspec
   default-language: Haskell2010
 
 executable ToyGrep-exe
@@ -47,8 +49,10 @@ executable ToyGrep-exe
       app
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      ToyGrep
+      QuickCheck
+    , ToyGrep
     , base >=4.7 && <5
+    , hspec
   default-language: Haskell2010
 
 test-suite ToyGrep-test
@@ -62,6 +66,8 @@ test-suite ToyGrep-test
       test
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      ToyGrep
+      QuickCheck
+    , ToyGrep
     , base >=4.7 && <5
+    , hspec
   default-language: Haskell2010
