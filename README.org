@@ -1,0 +1,5 @@
+#+title: ToyGrep
+
+[[https://imgs.xkcd.com/comics/lisp.jpg]]
+
+This xkcd comic inspired this toy project. The purpose is to create a purely functional project, and the =grep= seems simple enough to implement.
