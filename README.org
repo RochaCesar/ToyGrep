@@ -3,3 +3,21 @@
 [[https://imgs.xkcd.com/comics/lisp.jpg]]
 
 This xkcd comic inspired this toy project. The purpose is to create a purely functional project, and =grep= seems simple enough to implement.
+
+* Features
+** DONE Match a literal character
+** DONE Match digits
+** DONE Match alphanumeric characters
+** TODO Positive Character Groups
+** TODO Negative Character Groups
+** TODO Combining Character Classes
+** TODO Start of string anchor
+** TODO End of string anchor
+** TODO Match one or more times
+** TODO Match zero or one times
+** TODO Wildcard
+** TODO Alternation
+** TODO Backreferences
+** TODO Single Backreference
+** TODO Multiple Backreferences
+** TODO Nested Backreferences
