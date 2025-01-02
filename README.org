@@ -2,4 +2,4 @@
 
 [[https://imgs.xkcd.com/comics/lisp.jpg]]
 
-This xkcd comic inspired this toy project. The purpose is to create a purely functional project, and the =grep= seems simple enough to implement.
+This xkcd comic inspired this toy project. The purpose is to create a purely functional project, and =grep= seems simple enough to implement.
